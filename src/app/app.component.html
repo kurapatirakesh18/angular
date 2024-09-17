@@ -1,0 +1,26 @@
+
+
+<div>
+    <button type="submit" class="btn btn-primary" (click)="register()">Register User</button>
+    <button type="submit" class="btn btn-primary" (click)="forgotPassword()">Forgot Password</button>
+
+    <a href="/forgotPassword" target="_blank">Forgot Paasword Link</a>
+
+    <a routerLink="/forgotPassword"> Forgot Paasword routerLink Link</a>
+
+    <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+
+    <a routerLink="/addRestuarant">Restaurant</a>
+
+    <a routerLink="/createAccount">Account</a>
+
+    <a routerLink="/getCardNumber">Atm Card</a>
+    
+    <a routerLink="/searchAccount">Account Lookup</a>
+
+    {{fullNameFromChild}}
+</div>
+
+
+
+<router-outlet />
